@@ -2,7 +2,7 @@ package com.atao.chatbot.api.domain.zsxq.service;
 
 import com.alibaba.fastjson2.JSON;
 import com.alibaba.fastjson2.JSONObject;
-import com.atao.chatbot.api.domain.zsxq.ZsxqApi;
+import com.atao.chatbot.api.domain.zsxq.IZsxqApi;
 import com.atao.chatbot.api.domain.zsxq.model.aggregate.UnAnswerTopicAggregate;
 import com.atao.chatbot.api.domain.zsxq.model.req.AnswerReq;
 import com.atao.chatbot.api.domain.zsxq.model.req.ReqData;
@@ -23,7 +23,7 @@ import java.io.IOException;
 
 @Slf4j
 @Service
-public class ZsxqApiService implements ZsxqApi {
+public class ZsxqApiService implements IZsxqApi {
     @Override
     public UnAnswerTopicAggregate queryUnAnswerTopicId(String groupId, String cookie) throws IOException {
         CloseableHttpClient httpClient = HttpClientBuilder.create().build();

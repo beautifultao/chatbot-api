@@ -4,3 +4,7 @@ server:
 chatbot-api:
   groupId: 28885518425541
   cookie: zsxq_access_token=FC5EE04D-0197-97D8-22AB-B8D200BEA117_DBB6767EF9435041; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%22218888212214481%22%2C%22first_id%22%3A%22190ee3621fcf9-0c7938f5890664-4c657b58-2073600-190ee3621fde91%22%2C%22props%22%3A%7B%7D%2C%22identities%22%3A%22eyIkaWRlbnRpdHlfY29va2llX2lkIjoiMTkwZWUzNjIxZmNmOS0wYzc5MzhmNTg5MDY2NC00YzY1N2I1OC0yMDczNjAwLTE5MGVlMzYyMWZkZTkxIiwiJGlkZW50aXR5X2xvZ2luX2lkIjoiMjE4ODg4MjEyMjE0NDgxIn0%3D%22%2C%22history_login_id%22%3A%7B%22name%22%3A%22%24identity_login_id%22%2C%22value%22%3A%22218888212214481%22%7D%2C%22%24device_id%22%3A%22190ee3621fcf9-0c7938f5890664-4c657b58-2073600-190ee3621fde91%22%7D; zsxqsessionid=ef3bec30efc1edef4941fba817b6ed27; abtest_env=product
+
+SparkAI:
+  key: 11cd375da8ca14cf0388f155d9f7c574
+  secret: ODdjZDAxMzdiZDc2YmVmMDljZGJiOTE4
